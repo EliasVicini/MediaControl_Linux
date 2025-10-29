@@ -46,10 +46,14 @@ sudo apt install playerctl pulseaudio-utils python3-tk
 python3 mediacontrol.py
 ```
 
-Opções
-Parâmetro	Descrição
---dark	    Ativa o tema escuro
---debug	    Mostra logs detalhados no terminal
+Opções:
+
+| Parâmetro | Descrição |
+|------|------------------|
+| --dark | Ativa o tema escuro |
+| --debug| Mostra logs detalhados no terminal |
+
+
 
 Exemplo:
 ```bash
