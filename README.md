@@ -40,3 +40,18 @@ Caso falte alguma, será exibida uma mensagem de orientação no terminal.
 sudo apt update
 sudo apt install playerctl pulseaudio-utils python3-tk
 ```
+
+🖥️ Execução
+```bash
+python3 mediacontrol.py
+```
+
+Opções
+Parâmetro	Descrição
+--dark	    Ativa o tema escuro
+--debug	    Mostra logs detalhados no terminal
+
+Exemplo:
+```bash
+python3 mediacontrol.py --dark --debug
+```
